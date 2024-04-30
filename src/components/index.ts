@@ -3,3 +3,4 @@ export * from "./inputPassword";
 export * from "./divider";
 export * from "./recycler";
 export * from "./vendedor";
+export * from "./createArticle";
