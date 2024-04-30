@@ -1,8 +1,17 @@
 import { Button, Typography, TextField, Link, Box, Stack } from "@mui/material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { InputText } from "types/general";
 import { LayoutHome, InputPassword } from "@components";
 import useLogin from "./useLogin";
 import { Link as LinkRouter } from "react-router-dom";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#26425A",
+    },
+  },
+});
 
 export const Login = () => {
   const {
@@ -53,24 +62,28 @@ export const Login = () => {
       >
         {t("recoverPassword")}
       </Link> */}
-      <Button
-        sx={{ textTransform: "inherit" }}
-        variant="contained"
-        type="submit"
-        fullWidth
-      >
-        <Typography fontWeight={400}>{t("submit")}</Typography>
-      </Button>
-      <Typography>
-        {t("dontHaveAccount")}{" "}
-        <Link
-          component={LinkRouter}
-          sx={{ textDecoration: "none" }}
-          to="/auth/register"
+      <ThemeProvider theme={theme}>
+        <Button
+          sx={{ textTransform: "inherit" }}
+          variant="contained"
+          type="submit"
+          fullWidth
         >
-          {t("registerAccount")}
-        </Link>
-      </Typography>
+          <Typography fontWeight={400}>{t("submit")}</Typography>
+        </Button>
+      </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <Typography>
+          {t("dontHaveAccount")}{" "}
+          <Link
+            component={LinkRouter}
+            sx={{ textDecoration: "none" }}
+            to="/auth/register"
+          >
+            {t("registerAccount")}
+          </Link>
+        </Typography>
+      </ThemeProvider>
     </LayoutHome>
   );
 };
