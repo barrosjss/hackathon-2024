@@ -16,6 +16,9 @@ promedio de materiales reciclables en el mercado. Esto proporcionará a los usua
 Los recicladores, al recibir estas solicitudes, podrán revisarlas y decidir aceptarlas según su disponibilidad y capacidad para recoger y procesar los materiales solicitados. Es
 importante destacar que las solicitudes se enviarán preferiblemente a los recicladores más cercanos al lugar donde se emitió la solicitud, con el fin de optimizar la logística y reducir los tiempos de respuesta.
 
+## HI-FI 
+https://www.figma.com/file/G8CJ3yW0Zsljv9ibL1KeRT/Untitled?type=design&node-id=0%3A1&mode=design&t=JeY18iRCI5hr3op4-1
+
 ## Configuración de desarrollo
 
 Clonar repo:
