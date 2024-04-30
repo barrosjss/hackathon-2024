@@ -65,14 +65,14 @@ export const Register = () => {
           />
         </Stack>
       </Stack>
-      <Button sx={{textTransform: "inherit"}} variant="contained" type="submit" fullWidth color="primary">
+      <Button sx={{textTransform: "inherit", background: '#26425A'}} variant="contained" type="submit" fullWidth color="primary">
         <Typography >{t("submit")}</Typography>
       </Button>
       <Typography>
         {t("haveAccount")}{" "}
         <Link
           component={LinkRouter}
-          sx={{ textDecoration: "none" }}
+          sx={{ textDecoration: "none", color: '#26425A' }}
           to="/auth/login"
         >
           {t("loginAccount")}
