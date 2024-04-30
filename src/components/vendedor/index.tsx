@@ -4,6 +4,17 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#26425A",
+    },
+  },
+});
 
 const items = [
   {
@@ -103,6 +114,11 @@ export const Vendedor = () => {
             </Grid>
           ))}
         </Grid>
+        <Stack spacing={2} direction="row">
+          <ThemeProvider theme={theme}>
+            <Button variant="contained">Añadir producto</Button>
+          </ThemeProvider>
+        </Stack>
       </Container>
     </Box>
   );
