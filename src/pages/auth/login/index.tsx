@@ -35,9 +35,9 @@ export const Login = () => {
         fontSize={{ xs: 30, sm: 34 }}
         textAlign={{ xs: "start", sm: "center" }}
       >
-        Maneja tu economía de forma{" "}
+        Mejora el mundo reciclando y{" "}
         <Box component="br" display={{ xs: "none", sm: "block" }} />
-        sencilla con <b>Financial Check </b>
+        limpiando las calles
       </Typography>
       <Stack minWidth={{ xs: "100%", sm: 480 }} spacing={2}>
         <TextField
