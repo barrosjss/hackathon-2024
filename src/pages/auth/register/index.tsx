@@ -27,12 +27,12 @@ export const Register = () => {
       <Stack pt={{ sm: 5 }} spacing={4} minWidth={{ xs: "100%", sm: 480 }}>
         <Typography
           fontWeight={500}
-          fontSize={{ xs: 30, sm: 32, md: 30   }}
+          fontSize={{ xs: 30, sm: 32, md: 30 }}
           textAlign={{ xs: "start", sm: "center" }}
         >
-          Empieza a manejar tu economía{" "} 
+          Mejora el mundo reciclando y{" "}
           <Box component="br" display={{ xs: "none", sm: "block" }} />
-          de forma mas sencilla. Registrate ya!
+          limpiando las calles
         </Typography>
         <Stack spacing={2}>
           <TextField
@@ -65,7 +65,7 @@ export const Register = () => {
           />
         </Stack>
       </Stack>
-      <Button sx={{textTransform: "inherit", background: '#26425A'}} variant="contained" type="submit" fullWidth color="primary">
+      <Button sx={{ textTransform: "inherit", background: '#26425A' }} variant="contained" type="submit" fullWidth color="primary">
         <Typography >{t("submit")}</Typography>
       </Button>
       <Typography>
