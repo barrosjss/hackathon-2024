@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Link, Link as LinkRouter } from "react-router-dom";
 
 const theme = createTheme({
   palette: {
@@ -31,7 +32,12 @@ export const Main = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} />
-            <Button color="inherit">Logout</Button>
+            <Link
+              component={LinkRouter}
+              to="/auth/login"
+            >
+              <Button color="inherit">Logout</Button>
+            </Link>
           </Toolbar>
         </AppBar>
       </ThemeProvider>
