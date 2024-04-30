@@ -1,0 +1,35 @@
+{
+  "back": "Back",
+  "login": {
+    "inputEmail": "Email",
+    "inputPassword": "Password",
+    "submit": "Log In",
+    "recoverPassword": "Forgot password?",
+    "registerAccount": "Create new account",
+    "dontHaveAccount": "Don't have an account?"
+  },
+  "register": {
+    "inputEmail": "Email",
+    "inputName": "Username",
+    "inputPassword": "Password",
+    "inputPasswordConfirm": "Confirm password",
+    "submit": "Sign Up",
+    "haveAccount": "You have an account?",
+    "loginAccount": "Log In"
+  },
+  "forgetPassword": {
+    "title": "Did you forget your password",
+    "description1": "Don't worry, it usually happens, enter your email linked to the account",
+    "submit": "Recover Account"
+  },
+  "createNewPassword": {
+    "title": "Create new password",
+    "description1": "Don't worry, it usually happens, enter your email linked to the account",
+    "submit": "Recover Account"
+  },
+  "confirmPasswordChange": {
+    "title": "Password Changed",
+    "description1": "Your password has been changed succesful",
+    "submit": "Log In"
+  }
+}
