@@ -17,9 +17,9 @@ export const AppRouter = () => {
       <Route
         path="/dashboard/*"
         element={
-          <PrivateRoute>
+          <PublicRoute>
             <MainRouter />
-          </PrivateRoute>
+          </PublicRoute>
         }
       />
       <Route path="/*" element={<Navigate to="/auth/login" />} />
