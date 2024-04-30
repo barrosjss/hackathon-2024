@@ -1,0 +1,38 @@
+{
+  "back": "Atras",
+  "login": {
+    "inputEmail": "Correo electrónico",
+    "inputPassword": "Contraseña",
+    "submit": "Iniciar sesión",
+    "recoverPassword": "¿Has olvidado tu contraseña?",
+    "registerAccount": "Registrate aquí",
+    "dontHaveAccount": "No tienes una cuenta?"
+  },
+  "register": {
+    "inputEmail": "Correo electrónico",
+    "inputName": "Nombre de usuario",
+    "inputPassword": "Contraseña",
+    "inputPasswordConfirm": "Confirmar Contraseña",
+    "submit": "Registrarte",
+    "haveAccount": "Ya tienes una cuenta?",
+    "loginAccount": "Inicia sesion"
+  },
+  "forgetPassword": {
+    "title": "Olvidaste tu contraseña",
+    "description1": "No te preocupes, suele pasar, ingresa el correo linkeado a esta cuenta",
+    "inputEmail": "Correo electrónico",
+    "submit": "Recuperar cuenta"
+  },
+  "createNewPassword": {
+    "title": "Crea una nueva contrasñea",
+    "description1": "Tu nueva contraseña debe ser diferente a las contraseñas anteriores",
+    "inputPassword": "Crea tu contraseña",
+    "inputConfirmPassword": "Confirma tu contraseña",
+    "submit": "Recuperar contraseña"
+  },
+  "confirmPasswordChange": {
+    "title": "Contraseña cambiada",
+    "description1": "Tu contraseña ha sido cambiada exitosamente",
+    "submit": "Iniciar sesión"
+  }
+}
