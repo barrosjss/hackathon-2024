@@ -1,10 +1,10 @@
 import { Recycler } from "@components";
 import { Vendedor } from "@components";
 
-var user = "Recliclador"
+var user = "Vendedor"
 
 const userCondition = () => {
-    if (user === "Venderdor") {
+    if (user === "Recliclador") {
         return <Recycler />;
     } else {
         return <Vendedor />;
